@@ -27,6 +27,7 @@ public class testeLeitura {
         //mostra linha
 
         br.close();
+
     }
 
 }
