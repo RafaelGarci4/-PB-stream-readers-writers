@@ -18,7 +18,13 @@ public class testeLeitura {
         // le a linha
         String linha = br.readLine();
 
-        System.out.println(linha);
+        // le a linha ate acabar
+        while(linha != null){
+
+            System.out.println(linha);
+            linha = br.readLine();
+        }
+        //mostra linha
 
         br.close();
     }
