@@ -1,6 +1,4 @@
 package FIS;
-
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -12,7 +10,7 @@ public class testeLeitura2 {
         Scanner scanner = new Scanner(new File("./resourses/contas.csv"));
 
         while ( scanner.hasNextLine()){
-
+            System.out.println("ç");
             String linha = scanner.nextLine();
 
             // System.out.println(linha);
